@@ -1,0 +1,31 @@
+# ---- build output ----
+build/
+*.o
+*.so
+*.dylib
+*.app/
+
+# ---- recorded data (never commit measurement data) ----
+Data/*.root
+Data/*.bin
+Data/*.csv
+
+# ---- user config presets (created at runtime via "Save As...") ----
+configs/*.json
+
+# ---- vendor documentation ----
+# Struck SIS3316 manuals are copyrighted by Struck Innovative Systeme and must
+# NOT be redistributed. Download them from https://www.struck.de/sis3316.html
+doc/*.pdf
+
+# ---- macOS / editor cruft ----
+.DS_Store
+**/.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# ---- logs / scratch ----
+*.log
+session_local.md

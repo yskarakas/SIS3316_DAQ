@@ -1,0 +1,51 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2230"/>
+      <stop offset="1" stop-color="#0b0e14"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fd6c0"/>
+      <stop offset="1" stop-color="#1c8f9c"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4bd54"/>
+      <stop offset="1" stop-color="#d98a2b"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- rounded-square icon body -->
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#bg)"/>
+  <rect x="64.5" y="64.5" width="895" height="895" rx="207.5" fill="none" stroke="#2b3446" stroke-width="3"/>
+
+  <!-- oscilloscope grid -->
+  <g stroke="#243043" stroke-width="3">
+    <line x1="160" y1="700" x2="864" y2="700"/>
+    <line x1="160" y1="560" x2="864" y2="560"/>
+    <line x1="160" y1="420" x2="864" y2="420"/>
+    <line x1="304" y1="300" x2="304" y2="760"/>
+    <line x1="512" y1="300" x2="512" y2="760"/>
+    <line x1="720" y1="300" x2="720" y2="760"/>
+  </g>
+
+  <!-- coincidence window (the two pulses overlap here) -->
+  <rect x="404" y="300" width="176" height="460" rx="16" fill="#3a4a63" opacity="0.28"/>
+
+  <!-- two coincident scintillation pulses: fast rise, exponential tail -->
+  <g fill="none" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M168 700 L392 700 C424 700 430 700 452 344
+             C470 512 496 590 574 636 C660 686 760 690 856 690"
+          stroke="url(#teal)"/>
+    <path d="M168 706 L474 706 C506 706 514 706 536 430
+             C552 556 574 616 640 652 C708 690 792 694 856 700"
+          stroke="url(#amber)"/>
+  </g>
+
+  <!-- peak highlights -->
+  <circle cx="452" cy="344" r="17" fill="#eafffb"/>
+  <circle cx="536" cy="430" r="15" fill="#fff4de"/>
+</svg>
