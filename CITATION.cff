@@ -10,7 +10,7 @@ authors:
     # orcid: "https://orcid.org/0000-0000-0000-0000"   # <- add yours
 abstract: >-
   A C++17 / Qt6 / CERN ROOT acquisition and analysis suite for the Struck
-  SIS3316 16-channel 250 MHz digitizer. Provides live Ethernet acquisition,
+  SIS3316-250-14 (16-channel, 250 MS/s, 14-bit) digitizer. Provides live Ethernet acquisition,
   full in-GUI hardware configuration, FPGA lookup-table coincidence triggering
   (AND / OR / multiplicity), direct-to-ROOT recording, and native offline
   analysis including charge-comparison pulse-shape discrimination, Figure-of-

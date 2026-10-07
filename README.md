@@ -6,7 +6,7 @@
 
 <p align="center">
   A modern, self-contained C++17 / Qt6 / ROOT application for the
-  <b>Struck SIS3316</b> 16-channel, 250&nbsp;MHz waveform digitizer:
+  <b>Struck SIS3316-250-14</b> (16-channel, 250&nbsp;MS/s, 14-bit) waveform digitizer:
   live acquisition, full hardware configuration, FPGA lookup-table coincidence
   triggering, direct-to-ROOT recording, and native offline analysis &mdash;
   in a single program.
