@@ -1,9 +1,9 @@
 // ===========================================================================
 //  Sis3316Registers.hpp — COMPLETE, DOCUMENTATION-VALIDATED register map for
-//  the SIS3316 Neutron/Gamma PSD firmware (ADC FPGA V0250-0202).
+//  the SIS3316-250-14 (16 ch, 250 MS/s, 14-bit) Neutron/Gamma PSD firmware (ADC FPGA V0250-0202).
 //
 //  EVERY offset, bit field and physical meaning below was cross-checked against
-//  "SIS3316-M-1-1-V102_NeutronGamma_PSD" (the manual shipped with this project).
+//  "SIS3316-M-1-1-V102_NeutronGamma_PSD" (Struck manual; not redistributed here, see LICENSE).
 //  The page reference is given in each block so any value can be re-verified.
 //
 //  Addressing model (manual §3.1, page 29):
