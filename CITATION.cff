@@ -5,9 +5,9 @@ type: software
 authors:
   - family-names: "Karakas"
     given-names: "Yavuz Selim"
-    email: "dr.yskarakas@gmail.com"
+    email: "selim.karakas@tu-dortmund.de"
     affiliation: "Technische Universität Dortmund"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <- add yours
+    orcid: "https://orcid.org/0009-0007-1349-3149"
 abstract: >-
   A C++17 / Qt6 / CERN ROOT acquisition and analysis suite for the Struck
   SIS3316-250-14 (16-channel, 250 MS/s, 14-bit) digitizer. Provides live Ethernet acquisition,
@@ -26,20 +26,6 @@ keywords:
   - CERN ROOT
   - Qt
 license: MIT
-repository-code: "https://github.com/<FILL IN>/sis3316-daq-analysis"
+repository-code: "https://github.com/yskarakas/SIS3316_DAQ"
 version: "1.0.0"
 date-released: "2026-07-23"
-
-# ---------------------------------------------------------------------------
-# Once the JINST paper is published, add it here so the software cites the
-# paper as its preferred citation:
-#
-# preferred-citation:
-#   type: article
-#   title: "<paper title>"
-#   authors:
-#     - family-names: "<FILL IN>"
-#       given-names: "<FILL IN>"
-#   journal: "Journal of Instrumentation"
-#   year: 2026
-#   doi: "<FILL IN>"
